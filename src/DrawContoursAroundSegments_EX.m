@@ -33,7 +33,7 @@ end
 figure
 imshow(img_ContoursEX1)
 title('SLIC results');
-%local atmospheric light　for each super-pixels
+%local atmospheric lightã€€for each super-pixels
 for sg=1:K-1
     n=1;
     for pi=1:h
@@ -68,7 +68,7 @@ lightmax=max(light);
 lightmin=min(light);
 distance=fix((lightmax-lightmin)/5);
 fprintf('%3d',distance);
-%------------------merge super-pixels�? and compute local atmospheric light-------------------------
+%------------------merge super-pixelsï¼? and compute local atmospheric light-------------------------
 dx = [-1, 0, 1, -1, 1, -1, 0, 1];
 dy = [-1, -1, -1, 0, 0, 1, 1, 1];
     for mr1=2:h-1
